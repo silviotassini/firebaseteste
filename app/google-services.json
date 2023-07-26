@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "137903819360",
+    "firebase_url": "https://srtb-e6a7e-default-rtdb.firebaseio.com",
+    "project_id": "srtb-e6a7e",
+    "storage_bucket": "srtb-e6a7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137903819360:android:e731e0da5471a0bd46d105",
+        "android_client_info": {
+          "package_name": "com.deck.prosa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVpqyRMPTg2P3VEAlkFjvf83CN1v3id-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137903819360:android:308d21d38ed3029646d105",
+        "android_client_info": {
+          "package_name": "com.srtb.firebaseteste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVpqyRMPTg2P3VEAlkFjvf83CN1v3id-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
