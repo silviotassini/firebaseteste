@@ -1,8 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".view.main.MainActivity">
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_botao_sair"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnGravar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravar"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/btnAtualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atualizar dados"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnApagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apagar dados"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnLerdados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ler dados"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"/>
+
+</LinearLayout>
